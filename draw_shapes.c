@@ -26,6 +26,7 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+//prints an arrow by calling both print_triangle and print_square. leftCol in parint_square adds +4 to allow for propwer format of the arrow
 void print_arrow(int leftCol, int size){
   print_triangle(leftCol, size);
   print_square(leftCol+4, size);
